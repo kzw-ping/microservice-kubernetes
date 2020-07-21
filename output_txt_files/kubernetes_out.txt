@@ -8,16 +8,17 @@ Port: 8000
 }
 
 NAMESPACE     NAME                               READY   STATUS    RESTARTS   AGE
-default       predict                            1/1     Running   0          44s
-default       predict-7668d8689c-5vkd5           1/1     Running   0          103s
-kube-system   coredns-66bff467f8-rffwg           1/1     Running   1          15h
-kube-system   etcd-minikube                      1/1     Running   1          15h
-kube-system   kube-apiserver-minikube            1/1     Running   1          15h
-kube-system   kube-controller-manager-minikube   1/1     Running   1          15h
-kube-system   kube-proxy-nc68m                   1/1     Running   1          15h
-kube-system   kube-scheduler-minikube            1/1     Running   1          15h
-kube-system   storage-provisioner                1/1     Running   2          15h
+default       predict                            1/1     Running   0          46s
+default       predict-7668d8689c-dd2dd           1/1     Running   0          19s
+kube-system   coredns-66bff467f8-pkn4c           1/1     Running   0          2m42s
+kube-system   etcd-minikube                      1/1     Running   0          2m45s
+kube-system   kube-apiserver-minikube            1/1     Running   0          2m45s
+kube-system   kube-controller-manager-minikube   1/1     Running   0          2m45s
+kube-system   kube-proxy-mr5b7                   1/1     Running   0          2m42s
+kube-system   kube-scheduler-minikube            1/1     Running   0          2m45s
+kube-system   storage-provisioner                1/1     Running   0          2m47s
 Forwarding from 127.0.0.1:8000 -> 80
 Forwarding from [::1]:8000 -> 80
 Handling connection for 8000
 Handling connection for 8000
+
